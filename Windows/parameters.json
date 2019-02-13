@@ -1,0 +1,18 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "webAppName": {
+            "value": "SPC-DEVOPS-WINDOWS"
+        },
+        "hostingPlanName": {
+            "value": "SPC-DEVOPS-WINDOWS-plan"
+        },
+        "appInsightsLocation": {
+            "value": "South Central US"
+        },
+        "sku": {
+            "value": "F1 Free"
+        }
+    }
+}
